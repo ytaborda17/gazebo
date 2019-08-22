@@ -1,0 +1,13 @@
+/* main */
+#cleft .perfil img { behavior:url(pie.htc);}
+.iconCore16 { display:inline; zoom:1; }
+.operations li { display:inline; zoom:1; }
+.operations li a { display:inline; zoom:1; }
+.pic-control .times, .pic-title { display:inline; zoom:1; }
+
+/* mosiac */
+.list-view:not(#list-auth-items) .items > .view { display:inline; zoom:1; }
+
+@-moz-document url-prefix() { 
+	.list-view:not(#list-auth-items) .items { display:inline; zoom:1; }
+}

@@ -1,0 +1,111 @@
+@charset "utf-8"; 
+
+.bgbg {
+	background-image: url(../img/bg/galeria.jpg);
+}
+
+.container {
+	background: rgba(51, 51, 51, 0.6);
+}
+
+h1 {
+	color: #000;
+}
+
+#modal-box {
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+}
+
+.gallery {
+	margin-bottom: 40px;
+}
+
+.gallery .group {
+	width: 23%;
+	height: 0;
+	padding-top: 23%;
+	margin: 0 2% 2% 0;
+	float: left;
+	position: relative;
+}
+
+.gallery .group img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+}
+
+.gallery .group .caption {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	background-color: rgba(200, 255, 71, 0.7);
+	opacity: 0;
+	transition: opacity 0.5s linear;
+}
+
+.gallery .group:hover .caption {
+	display: block;
+	opacity: 1;
+	cursor: pointer;
+}
+
+.gallery .group .caption .zoom {
+	width: 100%;
+	height: 50%;
+	background: url(../img/zoom.png) center center no-repeat;
+	background-size: 30%;
+}
+
+.gallery .group .caption .name {
+	width: 85%;
+	height: auto;
+	padding: 20px 0px;
+	margin: 0 auto;
+	border-top: 2px solid;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: 'MyriadPro-Regular'
+}
+
+.cycle-overlay div:last-child {
+	display: none !important;
+}
+
+@media all and (max-width:940px) {
+	.gallery .group .caption .name {
+		padding: 10px 0px;
+		font-size: 14px;
+	}
+}
+
+@media all and (max-width:720px) {
+	.gallery .group {
+		width: 48%;
+		height: 0;
+		padding-top: 48%;
+	}
+	.gallery .group .caption .name {
+		padding: 10px 0px;
+		font-size: 14px;
+	}
+}
+
+@media all and (max-width:340px) {
+	.gallery .group {
+		width: 98%;
+		height: 0;
+		padding-top: 98%;
+	}
+	.gallery .group .caption .name {
+		padding: 20px 0px;
+		font-size: 20px;
+	}
+}

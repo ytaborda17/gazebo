@@ -1,0 +1,258 @@
+@charset "utf-8";
+.bgbg {
+	background-image: url(../img/bg/servicios.jpg);
+}
+
+h1 {
+	color: #333;
+}
+
+h2 {
+	font-size: 32px;
+	padding: 0px;
+	margin: 0px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.services {
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+}
+
+.row {
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+	margin-bottom: 30px;
+	padding: 0px 0px 0px 350px;
+	overflow: hidden;
+	box-sizing: border-box;
+	display: table;
+	position: relative;
+	z-index: 99;
+	text-align: justify;
+	background: url(../img/opa.png);
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.row .col.slider {
+	width: 350px;
+	height: 250px;
+	overflow: hidden;
+	position: absolute;
+	z-index: 600;
+	left: 1px;
+}
+
+.row .col.slider img {
+	width: 350px;
+	height: 250px;
+}
+
+.row .col.caption {
+	width: 100%;
+	height: 250px;
+	padding: 20px;
+	overflow: hidden;
+	box-sizing: border-box;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 14px;
+}
+
+.row .col.caption div {
+	width: auto;
+	max-height: 210px;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.row:first-child,
+.row:nth-child(5),
+.row:nth-child(8) {
+	background: rgba(200, 255, 71, 0.7);
+}
+
+.row:nth-child(3),
+.row:nth-child(6),
+.row:nth-child(9) {
+	background: rgba(170, 126, 51, 0.7);
+}
+
+.row.odd {
+	padding: 0px 350px 0px 0px !important;
+}
+
+.row.odd .col.slider {
+	left: inherit;
+	right: 0px;
+}
+
+.warranty {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	padding: 20px;
+	margin: 40px 0px 70px 0px;
+	position: relative;
+	background: #fff;
+	font-family: 'MyriadPro-Regular';
+	font-size: 26px;
+	color: #666;
+}
+
+.warranty .caption strong {
+	text-transform: uppercase;
+}
+
+.warranty .seal {
+	width: 160px;
+	height: 160px;
+	position: absolute;
+	top: -40px;
+	right: 100px;
+	background: url(../img/seal.png) center center no-repeat #fff;
+	border-radius: 50%;
+}
+
+body .container {
+	position: relative;
+}
+
+.clear {
+	width: 100%;
+	height: 385px;
+	overflow: hidden;
+}
+
+.design {
+	width: 100%;
+	height: 350px;
+	border: solid #000;
+	border-width: 2px 0px 2px 0px;
+	overflow: hidden;
+	position: absolute;
+	z-index: 10;
+	bottom: 80px;
+	left: 0px;
+	background: #000;
+}
+
+.design .area {
+	height: 350px;
+	background: url(../img/design.jpg) center center no-repeat;
+	font-family: 'MyriadPro-Light';
+	color: #C8FF47;
+}
+
+.design .area .title {
+	padding-top: 140px;
+	font-size: 42px;
+	font-weight: 400;
+}
+
+.design .area .caption {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+@media all and (max-width:1130px) {
+	.warranty .seal {
+		right: 80px;
+	}
+	.warranty .caption {
+		font-size: 24px
+	}
+	.row {
+		padding-left: 30%;
+	}
+	.row .col.slider {
+		width: 30%;
+	}
+	.row.odd {
+		padding: 0px 30% 0px 0px !important;
+	}
+}
+
+@media all and (max-width:940px) {
+	.warranty .seal {
+		width: 120px;
+		height: 120px;
+		right: 60px;
+		background-size: 96%;
+		top: -20px
+	}
+	.warranty .caption {
+		font-size: 20px
+	}
+	.warranty .caption {
+		padding-right: 150px;
+		line-height: normal
+	}
+	h2 {
+		font-size: 26px;
+		text-align: left;
+	}
+	.row .col.caption div {
+		font-size: 13px;
+	}
+}
+
+@media all and (max-width:720px) {
+	.bgbg {
+		background-image: url(../img/bg/servicios-mob.jpg);
+	}
+	.design .area {
+		font-family: 'MyriadPro-Regular';
+	}
+	.warranty .caption {
+		padding-right: 180px;
+	}
+	.warranty .caption {
+		font-size: 18px
+	}
+	.warranty .seal {
+		right: 50px;
+	}
+	.row {
+		padding: 0px !important;
+	}
+	.row.odd {
+		padding: 0px !important;
+	}
+	.row .col.caption {
+		width: 100%;
+		padding: 10px;
+	}
+	.row .col.caption div {
+		max-height: initial;
+		font-size: initial
+	}
+	.row .col.slider {
+		display: none
+	}
+}
+
+@media all and (max-width:480px) {
+	.warranty {
+		height: 50px;
+		padding: 15px 10px;
+	}
+	.warranty .seal {
+		width: 100px;
+		height: 100px;
+		right: 30px;
+		background-size: 96%;
+		top: -10px
+	}
+	.warranty .caption {
+		padding-right: 120px;
+		font-size: 16px
+	}
+}

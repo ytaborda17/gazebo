@@ -1,0 +1,37 @@
+@charset "utf-8"; 
+body {background-color:#222;}
+a {color:#AA7E33 !important;}
+
+.loginWrap {height:100%; width:100%; position:relative; overflow:auto; display:table; table-layout:fixed; padding-bottom:-23px;}
+.loginMain {width:100%; height:auto; vertical-align:middle; text-align:left; display:table-cell; /*margin-bottom:-50px; */color:#fff;}
+.loginPush {display:block; padding-bottom:53px;}
+.loginFoot, .loginMain:after {height:23px;} 
+
+.loginMain .logo{display:block; margin-bottom:20px; margin-left:15px;}
+.loginFoot {width:100%; display:block; margin-top:-23px; line-height:23px; text-align:center; color:#fff; font-size:0.8em; text-transform:uppercase;}
+.login_form {width:100%; height:auto; display:block; margin:20px auto;  padding:20px 0 20px 0; background:#fff; font-size:0.9em; color:#000;}
+.login_form .row, .loginHead .row, .loginHead + .content > h1, .loginHead + .content > .row {width:80%; margin:0 auto; display:block; text-align:left; clear:both;}
+.login_form .link {text-align:right;}
+
+.row .col {width:49%; float:left;}
+.row .col:nth-child(even) {float:right;}
+.row .col.c2 {height:34px; line-height:34px; text-align:right;}
+.row.links {margin-bottom:20px !important;}
+
+@media all and (max-width:767px) {
+	html, body {min-width:0px;}
+	#cleft, #cright {width:100%; display:block;}
+	#cleft .footer {width:100%; padding:0px; text-align:center; background:#AA7E33;}
+	#cright .form {position:static; margin:20px 0px}
+	#main-container > div {position:static;}
+	#main-container .content {padding:20px 0px;}
+	#cleft .content a.logo {margin:0px; position:static; zoom:1; *display:inline; display:inline-block; text-align:center;}
+
+	.form-group {margin:15px 0px 0px 0px;}
+}
+
+@media all and (max-width:480px) {
+	.login_form .row, .loginHead .row, .loginHead + .content > h1, .loginHead + .content > .row {width:98%;}
+	.login_form .link {text-align:center;}
+	.loginMain a.logo {text-align:center;}
+}

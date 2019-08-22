@@ -1,0 +1,347 @@
+@charset "utf-8"; 
+@font-face {font-weight:300; font-style:normal; font-family:'MyriadPro-Light'; src:url('../fonts/MyriadPro-Light.eot?#iefix'); src:url('../fonts/MyriadPro-Light.eot') format('embedded-opentype'), url('../fonts/MyriadPro-Light.woff') format('woff');}
+@font-face {font-weight:400; font-style:normal; font-family:'MyriadPro-Regular'; src:url('../fonts/MyriadPro-Regular.eot?#iefix'); src:url('../fonts/MyriadPro-Regular.eot') format('embedded-opentype'), url('../fonts/MyriadPro-Regular.woff') format('woff');}
+@font-face {font-weight:600; font-style:normal; font-family:'MyriadPro-Semibold'; src:url('../fonts/MyriadPro-Semibold.eot?#iefix'); src:url('../fonts/MyriadPro-Semibold.eot') format('embedded-opentype'), url('../fonts/MyriadPro-Semibold.woff') format('woff');}
+
+html {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	font-family: 'MyriadPro-Light', sans-serif;
+	font-size: 16px;
+}
+
+img {
+	border: none;
+}
+
+a {
+	border: none;
+	text-decoration: none;
+}
+
+.hidden,
+.invisible {
+	display: none;
+}
+
+.fhidden {
+	font-size: 0px;
+}
+
+.area {
+	width: 1030px;
+	height: auto;
+	margin: 0px auto;
+}
+
+body .container {
+	width: 100%;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0px 0px -50px 0px;
+	padding-bottom: 0px/*30px*/
+	;
+	overflow: auto;
+}
+
+body .header {
+	width: 100%;
+	height: 140px;
+	text-align: left;
+	position: relative;
+	z-index: 20;
+	background: url(../img/header-bg.png) top left no-repeat;
+}
+
+body .content {
+	padding: 0px 0px 50px 0px;
+}
+
+body .footer {
+	width: 100%;
+	height: 50px;
+	position: relative;
+	z-index: 999;
+	background-color: #000;
+	color: #fff;
+}
+
+.bgbg {
+	width: 100%;
+	height: 100vh;
+	background: url() center center no-repeat;
+	background-size: cover;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.clear {
+	clear: both;
+}
+
+.header .area-auto {
+	height: 80px;
+	margin: 30px auto;
+}
+
+.header a.logo {
+	width: 250px;
+	height: 120px;
+	line-height: 80px;
+	display: block;
+	position: absolute;
+	top: 50%;
+	margin-top: -60px;
+	z-index: 100;
+}
+
+.header a.logo:hover {
+	cursor: pointer;
+}
+
+.header a.logo img {
+	width: 235px;
+	height: 120px;
+}
+
+.header .side {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 20;
+}
+
+.header .side .phone {
+	width: 200px;
+	height: 80px;
+	margin-top: 30px;
+	float: right;
+	background-color: #999;
+}
+
+.header .side .phone div {
+	width: auto;
+	line-height: 80px;
+	margin: 0px 10px;
+	padding-left: 60px;
+	background: url(../img/phone.png) center left no-repeat;
+}
+
+.header .side .mainmenu ul {
+	width: auto;
+	height: 80px;
+	list-style-type: none;
+	float: right;
+	margin-top: 30px;
+}
+
+.header .side .mainmenu ul li {
+	width: auto;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+}
+
+.header .side .mainmenu ul li a {
+	width: auto;
+	line-height: 80px;
+	display: block;
+	padding: 0px 15px;
+	margin: 0px;
+	display: inline-block;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.header .side .mainmenu ul li.active a {
+	color: #AA7E33;
+}
+
+.header .side .mainmenu ul li a:hover {
+	background: #AA7E33;
+	color: #fff;
+}
+
+.header .side .mainmenu ul ul {
+	display: none;
+}
+
+#content {
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 0px;
+}
+
+.container .header-bg {
+	width: 100%;
+	height: 80px;
+	background-color: #fff;
+	position: absolute;
+	top: 30px;
+}
+
+h1 {
+	margin: 60px 0px 25px 0px;
+	text-transform: uppercase;
+	font-size: 60px;
+	font-family: 'MyriadPro-Regular';
+	font-weight: 300;
+	color: #fff;
+}
+
+.footer > div {
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+
+.footer .flinks {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.footer .flinks a {
+	padding: 0 10px;
+	color: #fff;
+}
+
+.footer .flinks a:hover {
+	color: #AA7E33;
+}
+
+.footer .copy span {
+	zoom: 1;
+	*display: inline;
+	display: inline-block;
+	float: right;
+}
+
+@media all and (max-width:1130px) {
+	.area {
+		width: 94%;
+	}
+}
+
+@media all and (max-width:940px) and (min-width:721px) {
+	.header {
+		font-family: 'MyriadPro-Regular', helvetica, sans-serif;
+		font-size: 14px;
+	}
+	.header .side .phone {
+		width: 124px;
+	}
+	.header .side .phone div {
+		background: none;
+		padding-left: 0px;
+	}
+	.header .side .mainmenu ul li a {
+		padding: 0px 5px;
+	}
+}
+
+@media all and (max-width:720px) {
+	.menucase {
+		display: none;
+	}
+	.menu {
+		display: block;
+		width: auto;
+		height: 80px;
+		margin: 0px;
+		padding: 0px 30px;
+		margin: 30px 20px 0px 0px;
+		float: right;
+		background: url(../img/menu.png) center center no-repeat;
+	}
+	.menu:hover {
+		cursor: pointer;
+	}
+	.menu:hover + .menucase,
+	.menucase:hover {
+		display: block;
+		width: 240px;
+		height: auto;
+		padding-bottom: 80px;
+		overflow: hidden;
+		position: absolute;
+		top: 110px;
+		right: 20px;
+		z-index: 9999;
+		background: url(../img/opa.png);
+	}
+	.header .side .menu + .menucase .phone {
+		margin: 0px 20px;
+		position: absolute;
+		top: 200px;
+		right: 0px;
+		background: none;
+		border-top: 1px solid #c4c4c4;
+	}
+	.header .side .menu + .menucase .mainmenu ul {
+		width: 100%;
+		height: auto;
+		margin: 0px;
+		padding: 0px;
+		text-align: center;
+	}
+	.header .side .menu + .menucase .mainmenu ul li {
+		height: auto;
+		margin: 0px;
+		padding: 0px
+	}
+	.header .side .menu + .menucase .mainmenu ul li a {
+		width: 100%;
+		line-height: 40px;
+		padding: 0px;
+	}
+	h1 {
+		font-size: 42px
+	}
+	body .footer {
+		height: auto;
+	}
+	.footer > div {
+		height: auto;
+		text-align: center;
+		font-size: 12px;
+	}
+	.footer .copy span {
+		float: none;
+	}
+}
+
+@media all and (max-width:480px) {
+	.menu:hover + .menucase,
+	.menucase:hover {
+		width: 100%;
+		right: 0px;
+	}
+	.header .side .menu + .menucase .phone {
+		right: 50%;
+		left: 50%;
+		margin-left: -100px;
+	}
+	.footer .copy {
+		font-size: 12px
+	}
+	.footer .copy span {
+		float: none;
+	}
+}

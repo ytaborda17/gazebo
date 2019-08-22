@@ -1,0 +1,141 @@
+@charset "utf-8"; 
+
+.bgbg {
+	background-image: url(../img/bg/empresa.jpg);
+}
+
+.container .content h1 {
+	color: #333;
+}
+
+.row {
+	width: 100%;
+	height: 250px;
+	margin-bottom: 30px;
+	padding-left: 350px;
+	overflow: hidden;
+	box-sizing: border-box;
+	position: relative;
+	text-align: justify;
+	background: url(../img/opa.png);
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.row .col.title {
+	width: 350px;
+	height: 250px;
+	line-height: 250px;
+	position: absolute;
+	left: 0;
+	z-index: 600;
+	font-size: 32px;
+	text-transform: uppercase;
+	text-align: center;
+	background: #333;
+	color: #C8FF47
+}
+
+.row .col.title h2 {
+	font-size: 32px;
+	padding: 0px;
+	margin: 0px;
+	font-weight: 300;
+}
+
+.row .col.caption {
+	width: 100%;
+	height: 250px;
+	padding: 20px;
+	overflow: hidden;
+	box-sizing: border-box;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.row.odd .col.title {
+	left: inherit;
+	right: 0px;
+}
+
+.row.odd {
+	padding: 0px 350px 0px 0px !important;
+}
+
+.container {
+	position: relative
+}
+
+.clear {
+	width: 100%;
+	height: 115px;
+	overflow: hidden;
+}
+
+.bottom {
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	border: solid #000;
+	border-width: 2px 0px 2px 0px;
+	overflow: hidden;
+	position: absolute;
+	z-index: 10;
+	bottom: 80px;
+	left: 0px;
+	font-family: 'MyriadPro-Regular';
+	font-size: 41px;
+	background: url(../img/opa.png);
+}
+
+@media all and (max-width:1130px) {
+	.row {
+		padding-left: 30%;
+	}
+	.row .col.title {
+		width: 30%;
+	}
+	.row.odd {
+		padding: 0px 30% 0px 0px !important;
+	}
+}
+
+@media all and (max-width:940px) {
+	.row .col.caption {
+		font-size: 15px;
+	}
+	.bottom {
+		font-size: 32px;
+	}
+}
+
+@media all and (max-width:720px) {
+	.bgbg {
+		background-image: url(../img/bg/empresa-mob.jpg);
+	}
+	.row,
+	.row.odd {
+		height: auto;
+		padding: 0px 0px 100px 0px !important;
+	}
+	.row .col.title,
+	.row.odd .col.title {
+		width: 100%;
+		height: 100px;
+		line-height: 100px;
+		bottom: 0px
+	}
+	.row .col.caption {
+		font-size: 15px;
+		position: static;
+	}
+	.bottom {
+		font-size: 22px;
+		text-align: center;
+	}
+}
+
+@media all and (max-width:480px) {
+	.bottom {
+		font-size: 16px;
+	}
+}

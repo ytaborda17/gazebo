@@ -1,0 +1,29 @@
+@charset "utf-8";
+.bgbg {
+	background-image: url(../img/bg/contacto.jpg);
+}
+
+.container {
+	background: rgba(153, 153, 153, 0.6);
+}
+
+#content {
+	padding-bottom: 30px;
+}
+
+h1 {
+	color: #000;
+}
+
+.map > ul {
+	margin: 0px;
+	font-family: 'MyriadPro-Regular';
+}
+
+a {
+	color: #000;
+}
+
+a:hover {
+	color: #AA7E33;
+}

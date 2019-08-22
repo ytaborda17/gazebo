@@ -1,0 +1,14 @@
+@charset "utf-8";
+.count {width:auto; height:64px; margin-bottom:20px; margin-right:20px; padding:0px; float:left; opacity:0.7; cursor:default;}
+.count:hover { opacity:1; }
+.count .pic { width:64px; height:64px; float:left; margin-right:10px; background:url(../img/icon-count.png) 0 -64px no-repeat;}
+.count .num {float:left; font-size:3em; color:#808080; margin-top:-8px; padding-left:0px; }
+.count .name {min-width:60px; font-size:10px !important; color:#808080; margin-top:-8px; text-transform:uppercase;}
+
+
+.count.sitio .pic { background-position:0 0;}
+.count.gestor .pic { background-position:0 -64px;}
+
+.count.social-fb .pic { background-position:0 -128px;}
+.count.social-tw .pic { background-position:0 -192px;}
+.count.social-in .pic { background-position:0 -256px;}

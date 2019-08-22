@@ -1,0 +1,116 @@
+.code { font-style:italic; font-family:monospace; color:#666; }
+.crugepanel { background-color:white; padding:10px; display:block; margin:-11px -11px 0 -11px; }
+.auth-item-error-msg { background-color:rgb(255,200,200); color:red; font-weight:bold; padding:5px; border:2px solid white; text-align:center; width:50%; }
+img.iconhelp { margin:3px; float:right; background-color:transparent; border:0px solid white; box-shadow:0px 0px 0px #eee; border-radius:0px !important; width:20px; }
+.auth-item-create-button { padding:5px 10px; text-align:center; min-width:100px; width:150px; margin:10px; margin-left:0px; }
+.auth-item-create-button a { color:#fff !important; }
+.auth-item-create-button:hover a { color:#000 !important; }
+.auth-item-create-button { padding:7px; background:#132D3A; }
+div.form .form-group { overflow:auto; padding:0; margin-bottom:20px; }
+div.form .form-group .col { float:left; margin-right:20px; line-height:25px; margin:5px;}
+div.form .form-group .col label { margin:5px; }
+div.form  h6 { margin-bottom:10px; background-color:#efefef; padding:5px; padding-left:10px; }
+
+/*.operations li span { display:none; }*/
+.portlet-decoration, .portlet-title { display:none !important; }
+.form span.required { color:#F00;}
+.form-group h6 { font-size:1.3em; font-weight:normal ; letter-spacing:1px; }
+div.form .textfield-readonly input { border:none; background-color:#eee; color:#333; }
+div.form .item { overflow:auto; }
+div.form .item input{ float:left; }
+div.form  .item .hint { float:left; margin-left:10px; }
+div.form  .hint { }
+
+div.form .field-group { overflow:auto; clear:both; padding:5px; margin-bottom:10px; }
+div.form .form-group-vert { overflow:auto; margin-bottom:10px; }
+div.form .form-group-vert .col { float:none; margin-right:10px; }
+
+#list-auth-items{ padding:10px; }
+#list-auth-items .row { background-color:transparent !important; margin-bottom:20px !important; margin-bottom:10px; display:block; width:100%; overflow:auto; }
+#list-auth-items .col { text-align:left; margin-bottom:3px; min-width:100px; }
+#list-auth-items hr { margin:0px; }
+#list-auth-items .authname { font-weight:normal !important; font-family:'helvetica_li'; font-size:1.3em; letter-spacing:1px; background-color:#efefef !important; border-radius:0px; padding:3px; }
+#list-auth-items .operacion { float:left; }
+#list-auth-items .operacion-eliminar { float:right; text-align:right; width:auto; min-width:0; }
+#list-auth-items .sorter { display:none; }
+
+.operacion-eliminar a { width:16px; height:16px; display:block; cursor:default; }
+.operacion-eliminar a[title=eliminar], .operacion-eliminar a[title=eliminar]:after { content:url(delete.png); }
+.operacion-eliminar a[title=eliminar]:hover, .operacion-eliminar a[title=eliminar]:hover:after { content:url(delete-h.png); cursor:pointer; }
+
+#list-auth-items { display:block; clear:both; width:60%; }	
+#list-auth-items .descr { font-style:italic; color:#666; display:block; clear:both; margin-top:5px; }
+#list-auth-items .referencias { }
+#list-auth-items ul.detallar-referencias { list-style:none; overflow:auto; display:none; }
+#list-auth-items  ul.detallar-referencias li { float:left; margin-right:10px; }
+
+/** auth-item muestra los CAuthItems, **/
+
+ul.auth-item { overflow:auto; list-style:none; text-align:left; }
+ul.auth-item input { margin-right:10px; float:left; }
+ul.auth-item  li { float:left; min-width:150px; line-height:30px; margin-right:10px; margin-bottom:10px; padding:5px; border:2px solid #132D3A; }
+.hind { margin:10px 0;}
+#mostrarSeleccion { font-size:1.3em; font-weight:normal;}
+
+ul.auth-item  li .loader { float:right; }
+ul.auth-item  li.checked { background-color:#265A76; border-color:#265A76; }
+ul.auth-item  li.selected {border:2px solid #265A76;background-color:#265A76; }
+ul.auth-item  li.loop {background-color:#ddd; }
+
+#auth-item-tree ul ul li { }
+#auth-item-tree ul ul ul li { }
+#auth-item-tree ul ul .itemtext { }
+#auth-item-tree ul ul ul .itemchildtext { }
+
+/*#auth-item-tree ul ul .checked { color:green !important; }
+#auth-item-tree ul ul ul .checked { color:green !important; }*/
+
+.authitem span:not(.checked) + img { content:url('pin-off.png'); }
+
+#auth-item-tree .loop { color:red; font-style:italic; }
+
+div.user-assignments-role-list { }
+div.user-assignments-detail { overflow:auto; }
+div.user-assignments-detail .lista { border:1px solid blue; float:left; margin-right:10px; width:40%; padding:10px; border:1px solid #eee; }
+.grant2-icon, .deny-icon { max-height:20px; max-width:16px; }
+.grant2-icon { content:url(hand-white.png); }
+.deny-icon { content:url(hand-off-white.png); }
+
+.boton:hover .grant2-icon { content:url(hand-black.png); }
+.boton:hover .deny-icon { content:url(hand-off.png); }
+
+div.user-assignments-detail .boton { background-color:#132D3A; background-image:url(""); background-repeat:no-repeat; height:22px; line-height:22px; padding:5px 10px; text-transform:capitalize; color:#fff; margin-bottom:10px; }
+div.user-assignments-detail .boton:hover { color:#000; }
+
+/*div.user-assignments-detail .boton:hover { background-color:rgb(200,255,200); }
+div.user-assignments-detail #lista1 .boton { background-image:url("hand-off.png"); }
+div.user-assignments-detail #lista2 .boton { background-image:url("hand.png"); }*/
+
+.pin-on { margin-left:10px; }
+.errorMessage, .errorSummary { display:none !important; }
+.errorMessage+input, .errorMessage+textarea { border:1px solid #CD5C5C !important; }
+
+/** CORE CRUGE **/
+.loginWrap { height:100%; width:100%; position:relative; overflow:auto; display:table; table-layout:fixed; padding-bottom:-23px; }
+.loginMain { width:100%; height:auto;  vertical-align:middle; text-align:left; display:table-cell; /*margin-bottom:-50px;*/  color:#fff; font-family:'helvetica_li'; }
+.loginPush { display:block; padding-bottom:53px; }	
+.loginFoot, .loginMain:after { height:23px; } 
+
+.loginMain .logo  {  margin-bottom:20px; }
+.loginFoot { width:100%; display:block; margin-top:-23px; line-height:23px; text-align:center; color:#fff; font-size:0.8em; }
+.login_form { width:100%; height:auto; display:block; margin:20px auto;  padding:20px 0 20px 0; background:#fff; font-size:0.9em; color:#000; }
+.login_form .row, .loginHead .row, .loginHead + .content > h1, .loginHead + .content > .row { width:80%; margin:0 auto; display:block; text-align:left; clear:both; }
+.login_form input[type=text], .login_form input[type=password], .login_form select { width:40%; margin:auto; padding:10px; border:1px solid #fff; margin:5px 0; float:left; display:block; }
+.login_form .register, .login_form .passwordRecovery { display:block; float:right; line-height:47px; }
+.login_form .rememberMe, .login_form .register a, .login_form .passwordRecovery a, .login_form #CrugeStoredUser_terminosYCondiciones + a, .login_form a { color:#808080; }
+.login_form .rememberMe:hover, .login_form .register a:hover, .login_form .passwordRecovery a:hover, .login_form #CrugeStoredUser_terminosYCondiciones + a:hover, .login_form a:hover { color:#000; }
+.login_form .rememberMe { margin-top:10px; }
+.login_form .rememberMe label:hover { cursor:pointer; }
+.login_form .col label { display:block; float:left; height:47px; line-height:47px; }
+.login_form .col input { margin-right:10px; margin-left:5px; }
+.login_form .iconUser, .login_form .iconKey, .login_form  .iconEmail { margin:12px 5px; }
+.loginMain .captcha { vertical-align:middle; } /* PwdRec */
+.loginMain .buttons input { display:block; float:left; font-size:0.9em; }
+
+.contentTop {margin:0px 0px 20px -20px;}
+.contentTop .operations {margin:0px -20px;}

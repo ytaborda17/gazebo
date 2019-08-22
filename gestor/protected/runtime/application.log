@@ -1,0 +1,230 @@
+2016/02/22 17:19:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2"' in /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/2425ad41...')
+#1 /home/oboro/Dropbox/var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/gazebo/gestor/assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2
+HTTP_REFERER=http://localhost/yii/gazebo/gestor/assets/2425ad41/bootstrap/css/bootstrap.min.css
+---
+2016/02/29 23:24:48 [error] [exception.CrugeException.401] action_app_index<br/>401
+REQUEST_URI=/yii/gazebo/gestor/
+---
+2016/02/29 23:24:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2"' in /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/2425ad41...')
+#1 /home/oboro/Dropbox/var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/gazebo/gestor/assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2
+HTTP_REFERER=http://www.localhost/yii/gazebo/gestor/assets/2425ad41/bootstrap/css/bootstrap.min.css
+---
+2016/02/29 23:24:58 [error] [php] file_get_contents(): php_network_getaddresses: getaddrinfo failed: Name or service not known (/home/oboro/Dropbox/var/www/yii/gazebo/gestor/protected/modules/cruge/models/data/CrugeSession.php:39)
+Stack trace:
+#0 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/protected/modules/cruge/components/CrugeUserManager.php(454): CrugeFactory->getICrugeSessionCreate()
+#1 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/protected/modules/cruge/models/filters/DefaultSessionFilter.php(71): CrugeUserManager->createSession()
+#2 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/protected/modules/cruge/components/CrugeWebUser.php(374): DefaultSessionFilter->startSession()
+#3 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/protected/modules/cruge/models/ui/CrugeLogon.php(113): CrugeWebUser->login()
+#4 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/protected/modules/cruge/controllers/UiController.php(147): CrugeLogon->login()
+#5 /home/oboro/Dropbox/var/www/yii/framework/web/actions/CInlineAction.php(49): UiController->actionLogin()
+#6 /home/oboro/Dropbox/var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /home/oboro/Dropbox/var/www/yii/framework/web/filters/CFilterChain.php(133): UiController->runAction()
+#8 /home/oboro/Dropbox/var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /home/oboro/Dropbox/var/www/yii/framework/web/filters/CFilterChain.php(130): CrugeUiAccessControlFilter->filter()
+#10 /home/oboro/Dropbox/var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /home/oboro/Dropbox/var/www/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /home/oboro/Dropbox/var/www/yii/framework/web/filters/CInlineFilter.php(58): UiController->filterAccessControl()
+#13 /home/oboro/Dropbox/var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /home/oboro/Dropbox/var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /home/oboro/Dropbox/var/www/yii/framework/web/CController.php(265): UiController->runActionWithFilters()
+#16 /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php(282): UiController->run()
+#17 /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /home/oboro/Dropbox/var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#19 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii/gazebo/gestor/entrar
+2016/02/29 23:24:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2"' in /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/2425ad41...')
+#1 /home/oboro/Dropbox/var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/gazebo/gestor/assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2
+HTTP_REFERER=http://www.localhost/yii/gazebo/gestor/assets/2425ad41/bootstrap/css/bootstrap.min.css
+---
+2016/02/29 23:25:05 [error] [php] file_get_contents(): php_network_getaddresses: getaddrinfo failed: Name or service not known (/home/oboro/Dropbox/var/www/yii/gazebo/gestor/protected/modules/cruge/models/data/CrugeSession.php:39)
+Stack trace:
+#0 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/protected/modules/cruge/components/CrugeUserManager.php(454): CrugeFactory->getICrugeSessionCreate()
+#1 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/protected/modules/cruge/models/filters/DefaultSessionFilter.php(71): CrugeUserManager->createSession()
+#2 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/protected/modules/cruge/components/CrugeWebUser.php(374): DefaultSessionFilter->startSession()
+#3 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/protected/modules/cruge/models/ui/CrugeLogon.php(113): CrugeWebUser->login()
+#4 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/protected/modules/cruge/controllers/UiController.php(147): CrugeLogon->login()
+#5 /home/oboro/Dropbox/var/www/yii/framework/web/actions/CInlineAction.php(49): UiController->actionLogin()
+#6 /home/oboro/Dropbox/var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /home/oboro/Dropbox/var/www/yii/framework/web/filters/CFilterChain.php(133): UiController->runAction()
+#8 /home/oboro/Dropbox/var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /home/oboro/Dropbox/var/www/yii/framework/web/filters/CFilterChain.php(130): CrugeUiAccessControlFilter->filter()
+#10 /home/oboro/Dropbox/var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /home/oboro/Dropbox/var/www/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /home/oboro/Dropbox/var/www/yii/framework/web/filters/CInlineFilter.php(58): UiController->filterAccessControl()
+#13 /home/oboro/Dropbox/var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /home/oboro/Dropbox/var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /home/oboro/Dropbox/var/www/yii/framework/web/CController.php(265): UiController->runActionWithFilters()
+#16 /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php(282): UiController->run()
+#17 /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /home/oboro/Dropbox/var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#19 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii/gazebo/gestor/entrar
+2016/02/29 23:25:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2"' in /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/2425ad41...')
+#1 /home/oboro/Dropbox/var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/gazebo/gestor/assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2
+HTTP_REFERER=http://www.localhost/yii/gazebo/gestor/assets/2425ad41/bootstrap/css/bootstrap.min.css
+---
+2016/02/29 23:25:17 [error] [php] file_get_contents(): php_network_getaddresses: getaddrinfo failed: Name or service not known (/home/oboro/Dropbox/var/www/yii/gazebo/gestor/protected/modules/cruge/models/data/CrugeSession.php:39)
+Stack trace:
+#0 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/protected/modules/cruge/components/CrugeUserManager.php(454): CrugeFactory->getICrugeSessionCreate()
+#1 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/protected/modules/cruge/models/filters/DefaultSessionFilter.php(71): CrugeUserManager->createSession()
+#2 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/protected/modules/cruge/components/CrugeWebUser.php(374): DefaultSessionFilter->startSession()
+#3 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/protected/modules/cruge/models/ui/CrugeLogon.php(113): CrugeWebUser->login()
+#4 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/protected/modules/cruge/controllers/UiController.php(147): CrugeLogon->login()
+#5 /home/oboro/Dropbox/var/www/yii/framework/web/actions/CInlineAction.php(49): UiController->actionLogin()
+#6 /home/oboro/Dropbox/var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /home/oboro/Dropbox/var/www/yii/framework/web/filters/CFilterChain.php(133): UiController->runAction()
+#8 /home/oboro/Dropbox/var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /home/oboro/Dropbox/var/www/yii/framework/web/filters/CFilterChain.php(130): CrugeUiAccessControlFilter->filter()
+#10 /home/oboro/Dropbox/var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /home/oboro/Dropbox/var/www/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /home/oboro/Dropbox/var/www/yii/framework/web/filters/CInlineFilter.php(58): UiController->filterAccessControl()
+#13 /home/oboro/Dropbox/var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /home/oboro/Dropbox/var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /home/oboro/Dropbox/var/www/yii/framework/web/CController.php(265): UiController->runActionWithFilters()
+#16 /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php(282): UiController->run()
+#17 /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /home/oboro/Dropbox/var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#19 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii/gazebo/gestor/entrar
+2016/02/29 23:25:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2"' in /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/2425ad41...')
+#1 /home/oboro/Dropbox/var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/gazebo/gestor/assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2
+HTTP_REFERER=http://www.localhost/yii/gazebo/gestor/assets/2425ad41/bootstrap/css/bootstrap.min.css
+---
+2016/02/29 23:25:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2"' in /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/2425ad41...')
+#1 /home/oboro/Dropbox/var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/gazebo/gestor/assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2
+HTTP_REFERER=http://www.localhost/yii/gazebo/gestor/assets/2425ad41/bootstrap/css/bootstrap.min.css
+---
+2016/02/29 23:25:37 [error] [application] UiController
+CrugeUser->validate es false
+<div class="errorSummary"><p>Por favor corrija los siguientes errores de ingreso:</p>
+<ul>
+<li>clave invalida</li>
+</ul></div>
+2016/02/29 23:25:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2"' in /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/2425ad41...')
+#1 /home/oboro/Dropbox/var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/gazebo/gestor/assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2
+HTTP_REFERER=http://www.localhost/yii/gazebo/gestor/assets/2425ad41/bootstrap/css/bootstrap.min.css
+---
+2016/02/29 23:25:47 [error] [php] file_get_contents(): php_network_getaddresses: getaddrinfo failed: Name or service not known (/home/oboro/Dropbox/var/www/yii/gazebo/gestor/protected/modules/cruge/models/data/CrugeSession.php:39)
+Stack trace:
+#0 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/protected/modules/cruge/components/CrugeUserManager.php(454): CrugeFactory->getICrugeSessionCreate()
+#1 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/protected/modules/cruge/models/filters/DefaultSessionFilter.php(71): CrugeUserManager->createSession()
+#2 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/protected/modules/cruge/components/CrugeWebUser.php(374): DefaultSessionFilter->startSession()
+#3 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/protected/modules/cruge/models/ui/CrugeLogon.php(113): CrugeWebUser->login()
+#4 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/protected/modules/cruge/controllers/UiController.php(147): CrugeLogon->login()
+#5 /home/oboro/Dropbox/var/www/yii/framework/web/actions/CInlineAction.php(49): UiController->actionLogin()
+#6 /home/oboro/Dropbox/var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /home/oboro/Dropbox/var/www/yii/framework/web/filters/CFilterChain.php(133): UiController->runAction()
+#8 /home/oboro/Dropbox/var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /home/oboro/Dropbox/var/www/yii/framework/web/filters/CFilterChain.php(130): CrugeUiAccessControlFilter->filter()
+#10 /home/oboro/Dropbox/var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /home/oboro/Dropbox/var/www/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /home/oboro/Dropbox/var/www/yii/framework/web/filters/CInlineFilter.php(58): UiController->filterAccessControl()
+#13 /home/oboro/Dropbox/var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /home/oboro/Dropbox/var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /home/oboro/Dropbox/var/www/yii/framework/web/CController.php(265): UiController->runActionWithFilters()
+#16 /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php(282): UiController->run()
+#17 /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /home/oboro/Dropbox/var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#19 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/index.php(14): CWebApplication->run()
+REQUEST_URI=/yii/gazebo/gestor/entrar
+2016/02/29 23:25:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2"' in /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/2425ad41...')
+#1 /home/oboro/Dropbox/var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/gazebo/gestor/assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2
+HTTP_REFERER=http://www.localhost/yii/gazebo/gestor/assets/2425ad41/bootstrap/css/bootstrap.min.css
+---
+2016/02/29 23:26:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2"' in /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/2425ad41...')
+#1 /home/oboro/Dropbox/var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/gazebo/gestor/assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2
+HTTP_REFERER=http://www.localhost/yii/gazebo/gestor/assets/2425ad41/bootstrap/css/bootstrap.min.css
+---
+2016/03/30 13:59:58 [error] [exception.CrugeException.401] action_app_index<br/>401
+REQUEST_URI=/yii/gazebo/gestor/
+---
+2016/03/30 13:59:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2"' in /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/2425ad41...')
+#1 /home/oboro/Dropbox/var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/gazebo/gestor/assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2
+HTTP_REFERER=http://localhost/yii/gazebo/gestor/assets/2425ad41/bootstrap/css/bootstrap.min.css
+---
+2016/03/30 14:04:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2"' in /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/2425ad41...')
+#1 /home/oboro/Dropbox/var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/gazebo/gestor/assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2
+HTTP_REFERER=http://localhost/yii/gazebo/gestor/assets/2425ad41/bootstrap/css/bootstrap.min.css
+---
+2016/03/30 14:04:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2"' in /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/2425ad41...')
+#1 /home/oboro/Dropbox/var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/gazebo/gestor/assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2
+HTTP_REFERER=http://localhost/yii/gazebo/gestor/assets/2425ad41/bootstrap/css/bootstrap.min.css
+---
+2016/03/30 14:32:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2"' in /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/2425ad41...')
+#1 /home/oboro/Dropbox/var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/gazebo/gestor/assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2
+HTTP_REFERER=http://localhost/yii/gazebo/gestor/assets/2425ad41/bootstrap/css/bootstrap.min.css
+---
+2016/03/30 14:32:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2"' in /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/oboro/Dropbox/var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/2425ad41...')
+#1 /home/oboro/Dropbox/var/www/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /home/oboro/Dropbox/var/www/yii/gazebo/gestor/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/gazebo/gestor/assets/2425ad41/bootstrap/fonts/glyphicons-halflings-regular.woff2
+HTTP_REFERER=http://localhost/yii/gazebo/gestor/assets/2425ad41/bootstrap/css/bootstrap.min.css
+---
